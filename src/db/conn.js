@@ -9,9 +9,6 @@ mongoose.connect('mongodb://localhost:27017/dynamicweb',{
     useCreateIndex : true,
     useNewUrlParser : true,
     useUnifiedTopology : true
-}).then(()=>{
-    console.log("Connection Successful");
-}).catch((error)=>{
-    console.log("Connection Failed");
-})
+}).then((Noe)=> console.log("Connection is Super Successful"))
+.catch((error)=> console.log("Connection Successful"))
 // &  _____________________________________________________________________________________________________________________________________________
